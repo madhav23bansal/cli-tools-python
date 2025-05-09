@@ -1,3 +1,6 @@
 # Add your project-wide dependencies here
 webcolors
 typer[all]
+-e ./packages/color_to_hex_cli
+-e ./packages/git_helper_cli
+-e ./packages/countdown_timer_cli
