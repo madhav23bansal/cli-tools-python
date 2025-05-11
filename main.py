@@ -26,6 +26,12 @@ tools_info = [
         "usage": "git_helper <command_name> OR git_helper --list",
         "description": "A simple CLI tool to quickly get help with common Git commands.",
     },
+    {
+        "name": "Random Password Generator",
+        "command": "random_password",
+        "usage": "random_password --length <number_of_characters>",
+        "description": "A CLI tool to generate random passwords.",
+    },
 ]
 
 
