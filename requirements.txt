@@ -4,3 +4,4 @@ typer[all]
 -e ./packages/color_to_hex_cli
 -e ./packages/git_helper_cli
 -e ./packages/countdown_timer_cli
+-e ./packages/simple_calculator_cli

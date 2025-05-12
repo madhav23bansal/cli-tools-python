@@ -32,6 +32,12 @@ tools_info = [
         "usage": "random_password --length <number_of_characters>",
         "description": "A CLI tool to generate random passwords.",
     },
+    {
+        "name": "Simple Calculator",
+        "command": "simple-calculator",
+        "usage": "simple-calculator <add|mul> <number1> <number2>",
+        "description": "Performs simple arithmetic operations like addition and multiplication.",
+    },
 ]
 
 
