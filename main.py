@@ -35,8 +35,8 @@ tools_info = [
     {
         "name": "Simple Calculator",
         "command": "simple-calculator",
-        "usage": "simple-calculator <add|mul> <number1> <number2>",
-        "description": "Performs simple arithmetic operations like addition and multiplication.",
+        "usage": "simple-calculator <add|sub|mul|div|pow|sqrt> <number1> [<number2>]",
+        "description": "Performs arithmetic operations like addition, subtraction, multiplication, division, exponentiation, and square root.",
     },
 ]
 
