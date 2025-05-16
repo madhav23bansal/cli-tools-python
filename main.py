@@ -38,6 +38,12 @@ tools_info = [
         "usage": "simple-calculator <add|sub|mul|div|pow|sqrt> <number1> [<number2>]",
         "description": "Performs arithmetic operations like addition, subtraction, multiplication, division, exponentiation, and square root.",
     },
+    {
+        "name": "BMI Calculator",
+        "command": "bmi-calculator",
+        "usage": "bmi-calculator --weight <weight_in_kg> --height <height_in_meters>",
+        "description": "Calculates Body Mass Index (BMI).",
+    },
 ]
 
 
