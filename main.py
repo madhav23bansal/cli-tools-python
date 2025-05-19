@@ -44,6 +44,12 @@ tools_info = [
         "usage": "bmi-calculator --weight <weight_in_kg> --height <height_in_meters>",
         "description": "Calculates Body Mass Index (BMI).",
     },
+    {
+        "name": "Hangman Game",
+        "command": "hangman_game",
+        "usage": "hangman_game",
+        "description": "Plays a classic game of Hangman in the CLI.",
+    },
 ]
 
 

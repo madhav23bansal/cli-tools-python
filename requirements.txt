@@ -6,3 +6,4 @@ typer[all]
 -e ./packages/countdown_timer_cli
 -e ./packages/simple_calculator_cli
 -e ./packages/bmi_calculator_cli
+-e ./packages/hangman_game_cli
