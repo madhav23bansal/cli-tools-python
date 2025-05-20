@@ -7,3 +7,4 @@ typer[all]
 -e ./packages/simple_calculator_cli
 -e ./packages/bmi_calculator_cli
 -e ./packages/hangman_game_cli
+-e ./packages/word_scramble_cli

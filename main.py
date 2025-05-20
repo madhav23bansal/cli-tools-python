@@ -50,6 +50,12 @@ tools_info = [
         "usage": "hangman_game",
         "description": "Plays a classic game of Hangman in the CLI.",
     },
+    {
+        "name": "Word Scramble Game",
+        "command": "word_scramble",
+        "usage": "word_scramble [--rounds <number_of_rounds>]",
+        "description": "Plays a word scramble game in the CLI.",
+    },
 ]
 
 
