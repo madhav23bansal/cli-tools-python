@@ -56,6 +56,12 @@ tools_info = [
         "usage": "word_scramble [--rounds <number_of_rounds>]",
         "description": "Plays a word scramble game in the CLI.",
     },
+    {
+        "name": "Coin Toss Simulator",
+        "command": "coin_toss",
+        "usage": "coin_toss [--flips <number_of_flips>]",
+        "description": "Simulates tossing a coin with a rich UI.",
+    },
 ]
 
 

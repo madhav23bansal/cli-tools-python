@@ -1,6 +1,7 @@
 # Add your project-wide dependencies here
 webcolors
 typer[all]
+rich
 -e ./packages/color_to_hex_cli
 -e ./packages/git_helper_cli
 -e ./packages/countdown_timer_cli
@@ -8,3 +9,4 @@ typer[all]
 -e ./packages/bmi_calculator_cli
 -e ./packages/hangman_game_cli
 -e ./packages/word_scramble_cli
+-e ./packages/coin_toss_cli
