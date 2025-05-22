@@ -10,3 +10,4 @@ rich
 -e ./packages/hangman_game_cli
 -e ./packages/word_scramble_cli
 -e ./packages/coin_toss_cli
+-e ./packages/memory_game_cli

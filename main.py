@@ -62,6 +62,12 @@ tools_info = [
         "usage": "coin_toss [--flips <number_of_flips>]",
         "description": "Simulates tossing a coin with a rich UI.",
     },
+    {
+        "name": "Memory Game",
+        "command": "memory_game",
+        "usage": "memory_game [--size <board_size>]",
+        "description": "Plays a classic Memory (Concentration) game with a rich UI.",
+    },
 ]
 
 
