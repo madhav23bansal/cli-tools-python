@@ -1,6 +1,6 @@
-# Cline: A Collection of Python CLI Tools
+# A Collection of Python CLI Tools
 
-Cline is a monorepo hosting a variety of useful and fun command-line interface (CLI) tools, each developed as a separate Python package. This project serves as a central hub for managing, discovering, and using these tools.
+`cli-tools-python` is a monorepo hosting a variety of useful and fun command-line interface (CLI) tools, each developed as a separate Python package. This project serves as a central hub for managing, discovering, and using these tools.
 
 ## Overview
 
@@ -48,7 +48,7 @@ The following CLI tools are available in this collection:
 
     ```bash
     git clone <repository_url> # Replace <repository_url> with the actual URL of this project
-    cd cline
+    cd cli-tools-python
     ```
 
 2.  **Create and activate a virtual environment (recommended):**
@@ -113,7 +113,7 @@ Refer to the table above or use `python main.py list` for the specific command a
 The project is organized as follows:
 
 ```
-cline/
+cli-tools-python/
 ├── main.py                 # Central CLI manager
 ├── requirements.txt        # Project dependencies, including all tools
 ├── packages/               # Contains all individual CLI tool packages
