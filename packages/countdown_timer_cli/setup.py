@@ -13,12 +13,12 @@ setup(
             "countdown_timer=countdown_timer_cli.main:main",
         ],
     },
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Madhav Bansal",
+    author_email="madhavb.dev@gmail.com",
     description="A simple countdown timer CLI.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/countdown_timer_cli",  # Replace with your actual URL
+    url="https://github.com/madhav23bansal/cli-tools-python/tree/main/packages/countdown_timer_cli",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

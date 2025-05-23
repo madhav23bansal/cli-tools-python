@@ -1,13 +1,23 @@
-# Add your project-wide dependencies here
-webcolors
-typer[all]
-rich
--e ./packages/color_to_hex_cli
--e ./packages/git_helper_cli
--e ./packages/countdown_timer_cli
--e ./packages/simple_calculator_cli
--e ./packages/bmi_calculator_cli
--e ./packages/hangman_game_cli
--e ./packages/word_scramble_cli
--e ./packages/coin_toss_cli
--e ./packages/memory_game_cli
+-e git+ssh://git@github.com/madhav23bansal/cline.git@7b632226512fd17d8ae23b7af006e938bb13598e#egg=bmi_calculator_cli&subdirectory=packages/bmi_calculator_cli
+click==8.1.8
+-e git+ssh://git@github.com/madhav23bansal/cline.git@7b632226512fd17d8ae23b7af006e938bb13598e#egg=coin_toss_cli&subdirectory=packages/coin_toss_cli
+-e git+ssh://git@github.com/madhav23bansal/cline.git@7b632226512fd17d8ae23b7af006e938bb13598e#egg=color_to_hex_cli&subdirectory=packages/color_to_hex_cli
+colour-science==0.4.4
+-e git+ssh://git@github.com/madhav23bansal/cline.git@7b632226512fd17d8ae23b7af006e938bb13598e#egg=countdown_timer_cli&subdirectory=packages/countdown_timer_cli
+-e git+ssh://git@github.com/madhav23bansal/cline.git@7b632226512fd17d8ae23b7af006e938bb13598e#egg=git_helper_cli&subdirectory=packages/git_helper_cli
+-e git+ssh://git@github.com/madhav23bansal/cline.git@7b632226512fd17d8ae23b7af006e938bb13598e#egg=hangman_game_cli&subdirectory=packages/hangman_game_cli
+imageio==2.37.0
+markdown-it-py==3.0.0
+mdurl==0.1.2
+-e git+ssh://git@github.com/madhav23bansal/cline.git@7b632226512fd17d8ae23b7af006e938bb13598e#egg=memory_game_cli&subdirectory=packages/memory_game_cli
+numpy==1.26.4
+pillow==11.2.1
+Pygments==2.19.1
+rich==14.0.0
+scipy==1.13.1
+shellingham==1.5.4
+-e git+ssh://git@github.com/madhav23bansal/cline.git@7b632226512fd17d8ae23b7af006e938bb13598e#egg=simple_calculator_cli&subdirectory=packages/simple_calculator_cli
+typer==0.16.0
+typing_extensions==4.13.2
+webcolors==24.11.1
+-e git+ssh://git@github.com/madhav23bansal/cline.git@7b632226512fd17d8ae23b7af006e938bb13598e#egg=word_scramble_cli&subdirectory=packages/word_scramble_cli

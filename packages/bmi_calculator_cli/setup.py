@@ -10,12 +10,12 @@ setup(
         ],
     },
     install_requires=[],
-    author="Cline",
-    author_email="cline@example.com",
+    author="Madhav Bansal",
+    author_email="madhavb.dev@gmail.com",
     description="A simple CLI tool to calculate BMI.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/bmi_calculator_cli",  # Replace with your actual URL
+    url="https://github.com/madhav23bansal/cli-tools-python/tree/main/packages/bmi_calculator_cli",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

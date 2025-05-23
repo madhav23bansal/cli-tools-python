@@ -7,12 +7,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="hangman-game-cli",
     version="0.1.0",
-    author="Cline",  # Assuming Cline is the author, can be changed
-    author_email="cline@example.com",  # Placeholder email
+    author="Madhav Bansal",
+    author_email="madhavb.dev@gmail.com",
     description="A CLI Hangman game.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/cline/tree/main/packages/hangman_game_cli",  # Placeholder URL
+    url="https://github.com/madhav23bansal/cli-tools-python/tree/main/packages/hangman_game_cli",
     packages=find_packages(),
     install_requires=[
         "click",

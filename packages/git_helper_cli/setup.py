@@ -9,12 +9,12 @@ setup(
             "git_helper = main:main",
         ],
     },
-    author="Cline",
-    author_email="cline@example.com",
+    author="Madhav Bansal",
+    author_email="madhavb.dev@gmail.com",
     description="A CLI tool to get help with Git commands.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/git_helper_cli",  # Replace with actual URL if available
+    url="https://github.com/madhav23bansal/cli-tools-python/tree/main/packages/git_helper_cli",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
